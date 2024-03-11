@@ -1,0 +1,78 @@
+{
+  "intents":[
+    {
+        "tag":"salam",
+        "patterns":[
+            "Assalamoalikum",
+            "Assalamoalaikum",
+            "Assalomoalikum",
+            "Aoa",
+            "salam",
+            "Assalam"
+        ],
+        "responses":[
+            "walaikumasalam",
+            "walaikumasalam, How may I help you?",
+            "walaikum, What kind of service do you want?"
+        ]
+    },
+    {
+          "tag": "greeting",
+          "patterns":[
+              "Hi",
+              "Aoa",
+              "Hey",
+              "Is anyone there?",
+              "Hello",
+              "Good day"
+
+          ],
+          "responses":[
+              "Hey :)",
+              "Hi There, how may I help?",
+              "Welcome to BuildHub.",
+              "Hi! How may I help?",
+              "Hi, What can i do for you?"
+          ]
+      }, 
+      {
+          "tag": "Goodbye",
+          "patterns":["Bye","thanks","thank you","thankyou","See You Later","Allah Hafiz","Have a nice day","Goodbye"],
+          "responses":[
+              "See You Later",
+              "Thanks for visiting BuildHub.",
+              "Allah Hafiz!! Takecare",
+              "Bye, hope to see you again!",
+              "visit BuildHub's official website or office for more information..."
+          ]
+      },
+      {
+        "tag": "Architect",
+          "patterns":["architect","I want an architect","I want a map"],
+          "responses":["Where do you want an architect?", "I can show you the architects available in you area"]
+      },
+      {
+        "tag": "Builder",
+          "patterns":["Builder","I want a Builder","I want to construct a house", "I want to do Construction"],
+          "responses":["Where do you want a builder?", "I can show you the builders available in you area"]
+      },
+      {
+        "tag": "InteriorDesign",
+          "patterns":["Interior designer","Interior designer required","I want an interior designer","I want a designer"],
+          "responses":["Where do you want an interior designer?", "I can show you the interior designers available in you area"]
+      },
+      {
+          "tag": "Help",
+          "patterns":[
+              "You are not helpful",
+              "I want a human representative",
+              "This is not what i want"
+          ],
+          "responses":[
+              "Im sorry or the cofusion, I can refer you to our human representative",
+              "You can contact us by our number available at BuildHub's official site",
+              "Human representative will contact you shortly"
+          ]
+      }
+  ]
+}
